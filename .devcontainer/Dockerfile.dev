@@ -1,0 +1,5 @@
+FROM docker.io/debian
+
+RUN apt update  && apt install --no-install-recommends -y nginx
+
+CMD ["tail","-f","/dev/null"]
