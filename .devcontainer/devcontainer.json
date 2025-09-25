@@ -1,6 +1,10 @@
 {
+  "name": "Custom Go Devcontainer",
   "build": {
     "dockerfile": "Dockerfile.dev",
-    "context": ".."
-  }
+    "context": "."
+  },
+  "settings": {
+    "go.toolsManagement.checkForUpdates": "local"
+  },
 }
